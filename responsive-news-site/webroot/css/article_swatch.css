@@ -59,6 +59,7 @@
   .article_swatches {
     display: flex;
     flex-direction: row;
+    padding-inline-start: 0;
   }
   .article_swatch--third {
     display: none;

@@ -8,5 +8,6 @@
     grid-template-columns: repeat(2, 1fr);
     column-gap: 40px;
     padding-block-start: 0;
+    padding-inline-start: 0;
   }
 }
