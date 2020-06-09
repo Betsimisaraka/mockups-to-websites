@@ -25,3 +25,19 @@
 #section_more_news .category a {
   color: #FA6980;
 }
+
+@media (min-width: 768px) {
+  #section_more_news {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 40px;
+    padding-block-end: 2rem;
+  }
+  #section_more_news > header {
+    grid-column: 1 / 4;
+    margin-block-start: 0;
+  }
+  #section_more_news .category {
+    margin-block-start: -2rem;
+  }
+}

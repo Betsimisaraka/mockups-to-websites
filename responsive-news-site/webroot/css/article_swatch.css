@@ -60,11 +60,12 @@
     display: flex;
     flex-direction: row;
     padding-inline-start: 0;
-  }
-  .article_swatch--third {
-    display: none;
+    padding-inline-end: 0;
   }
   .article_swatch + .article_swatch {
     margin-inline-start: 2rem;
+  }
+  .article_swatch .article_image {
+    height: calc(50vw - 10rem);
   }
 }
