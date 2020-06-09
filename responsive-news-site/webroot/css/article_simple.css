@@ -37,3 +37,15 @@
   order: 3;
   color: #A6ADB4;
 }
+
+@media (min-width: 768px) {
+  #section_happening_now .article_card + .article_card + .article_simple +  .article_simple ~ .article_simple {
+    display: none;
+  }
+  .article_simple .article_image {
+    height: calc((100vw - 3rem)/ 4);
+  }
+  .article_simple {
+    padding-block-start: 2rem;
+  }
+}
