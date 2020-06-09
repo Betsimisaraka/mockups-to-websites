@@ -45,7 +45,7 @@ body > footer a {
 }
 
 .link_primary + .link_secondary {
-  margin-block-start: 0;
+  margin-block-start: 0.5rem;
 }
 
 .link_primary {
@@ -57,4 +57,36 @@ body > footer a {
   flex-direction: row;
   justify-content: space-between;
   max-width: 8.5rem;
+}
+
+@media (min-width: 768px) {
+  .link_primary {
+    display: block;
+  }
+  body > footer > h2 {
+    margin-block-end: 0;
+  }
+  body > footer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 40px;
+    padding-inline-start: 5rem;
+    padding-inline-end: 5rem;
+  }
+  .links_site {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 0;
+    padding-top: 0;
+    margin-block-end: 0;
+    padding-block-end: 0;
+  }
+  .links_social {
+    align-items: flex-end;
+    margin-inline-start: 10rem;
+  }
+  .form_subscribe {
+    grid-column: 1;
+    grid-row: 2;
+  }
 }
