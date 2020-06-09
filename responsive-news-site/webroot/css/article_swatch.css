@@ -59,7 +59,9 @@
   .article_swatches {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+  }
+  .article_swatch--third {
+    display: none;
   }
   .article_swatch + .article_swatch {
     margin-inline-start: 2rem;
