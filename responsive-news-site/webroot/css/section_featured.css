@@ -31,3 +31,17 @@
     padding-block-end: 5rem;
   }
 }
+
+@media (min-width: 1440px) {
+  #section_featured {
+    float: left;
+    width: 840px;
+    height: 600px;
+  }
+  #section_featured article {
+    padding-inline-start: 10rem;
+    padding-inline-end: 10rem;
+    padding-block-start: 10rem;
+    padding-block-end: 10rem;
+  }
+}
