@@ -68,4 +68,9 @@
   .article_swatch .article_image {
     height: calc(50vw - 10rem);
   }
+  @media (min-width: 1350px) {
+    .article_swatch .article_image {
+      height: calc(50vw - 30rem);
+    }
+  }
 }
