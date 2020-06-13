@@ -22,6 +22,9 @@
       column-gap: 40px;
       padding-block-end: 2rem;
       margin-inline-end: 0;
+      max-width: 37.5rem;
+      margin-inline-start: auto;
+      margin-inline-end: auto;
     }
     #section_trending > header {
       grid-column: 1 / 3;

@@ -66,12 +66,14 @@ body > footer a {
   body > footer > h2 {
     margin-block-end: 0;
   }
-  body > footer {
+
+  .footer_div {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     column-gap: 40px;
-    padding-inline-start: 5rem;
-    padding-inline-end: 5rem;
+    max-width: 37.5rem;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
   }
   .links_site {
     display: grid;
@@ -90,3 +92,4 @@ body > footer a {
     grid-row: 2;
   }
 }
+

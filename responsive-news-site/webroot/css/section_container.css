@@ -25,7 +25,8 @@
 
 @media (min-width: 768px) {
   .section_container {
-    padding-inline-start: 5rem;
-    padding-inline-end: 5rem;
+    max-width: 37.5rem;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
   }
 }

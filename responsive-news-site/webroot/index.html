@@ -73,7 +73,7 @@
     </section>
 
     <section id="section_more_news" class="section_container">
-      <header>
+      <header class="more_news__header">
         <h3 class="heading_section">More news</h3>
         <ul class="section_pagination">
           <li>
@@ -84,61 +84,61 @@
           </li>
         </ul>
       </header>
-        <article class="article_longform">
-          <header class="article_header">
-            <h4 class="article_title">Article title</h4>
-            <p class="category">
-              <a href="/category/travel/">
-                <span class="a11y">Category: </span>
-                Travel
-              </a>
-            </p>
-          </header>
-          <div class="article_description">
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum laudantium, laborum voluptate pariatur
-              aliquam provident sequi iusto magni temporibus quidem ab commodi mollitia quam, non cumque, adipisci
-              incidunt dolores ullam.
-            </p>
-          </div>
-          <footer class="article_footer">
-            <p class="publication_details">
-              <span class="a11y">Posted: </span>
-              <time datetime="2020-06-03T16:29:15Z">
-                <abbr title="Two minutes ago">2m ago</abbr>
-              </time>
-              <cite>by <a href="/author/days">Days</a></cite>
-            </p>
-          </footer>
-        </article>
+      <article class="article_longform">
+        <header class="article_header">
+          <h4 class="article_title">Article title</h4>
+          <p class="category">
+            <a href="/category/travel/">
+              <span class="a11y">Category: </span>
+              Travel
+            </a>
+          </p>
+        </header>
+        <div class="article_description">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum laudantium, laborum voluptate pariatur
+            aliquam provident sequi iusto magni temporibus quidem ab commodi mollitia quam, non cumque, adipisci
+            incidunt dolores ullam.
+          </p>
+        </div>
+        <footer class="article_footer">
+          <p class="publication_details">
+            <span class="a11y">Posted: </span>
+            <time datetime="2020-06-03T16:29:15Z">
+              <abbr title="Two minutes ago">2m ago</abbr>
+            </time>
+            <cite>by <a href="/author/days">Days</a></cite>
+          </p>
+        </footer>
+      </article>
 
-        <article class="article_longform">
-          <header class="article_header">
-            <h4 class="article_title">Article title</h4>
-            <p class="category">
-              <a href="/category/technology/">
-                <span class="a11y">Category: </span>
-                Technology
-              </a>
-            </p>
-          </header>
-          <div class="article_description">
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio consectetur ut necessitatibus porro
-              distinctio quo, blanditiis mollitia ipsa, neque ducimus sed fugiat dolorem placeat dignissimos voluptate
-              repudiandae obcaecati quibusdam esse!
-            </p>
-          </div>
-          <footer class="article_footer">
-            <p class="publication_details">
-              <span class="a11y">Posted: </span>
-              <time datetime="2020-06-03T15:31:15Z">
-                <abbr title="One hour ago">1h ago</abbr>
-              </time>
-              <cite>by <a href="/author/monica">Monica</a></cite>
-            </p>
-          </footer>
-        </article>
+      <article class="article_longform">
+        <header class="article_header">
+          <h4 class="article_title">Article title</h4>
+          <p class="category">
+            <a href="/category/technology/">
+              <span class="a11y">Category: </span>
+              Technology
+            </a>
+          </p>
+        </header>
+        <div class="article_description">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio consectetur ut necessitatibus porro
+            distinctio quo, blanditiis mollitia ipsa, neque ducimus sed fugiat dolorem placeat dignissimos voluptate
+            repudiandae obcaecati quibusdam esse!
+          </p>
+        </div>
+        <footer class="article_footer">
+          <p class="publication_details">
+            <span class="a11y">Posted: </span>
+            <time datetime="2020-06-03T15:31:15Z">
+              <abbr title="One hour ago">1h ago</abbr>
+            </time>
+            <cite>by <a href="/author/monica">Monica</a></cite>
+          </p>
+        </footer>
+      </article>
     </section>
 
     <section id="section_trending" class="section_container">
@@ -446,46 +446,47 @@
   </nav>
 
   <footer>
-    <h2><a href="/">Logo</a></h2>
+    <div class=" footer_div">
+      <h2><a href="/">Logo</a></h2>
 
-    <h3 class="a11y">Sitemap</h3>
-    <ul class="links_site">
-      <li class="link_primary"><a href="/">Home</a></li>
-      <li class="link_primary"><a href="/discovery">Discovery</a></li>
-      <li class="link_primary"><a href="/photos">Photos</a></li>
-      <li class="link_primary"><a href="/contact">Contact</a></li>
-      <li class="link_secondary"><a href="/about">About</a></li>
-      <li class="link_secondary"><a href="/help">Help</a></li>
-      <li class="link_secondary"><a href="/terms">Terms</a></li>
-      <li class="link_secondary"><a href="/guidelines">Guidelines</a></li>
-      <li class="link_secondary"><a href="/testimonials">Testimonials</a></li>
-      <li class="link_secondary"><a href="/advertise">Advertise</a></li>
-      <li class="link_secondary"><a href="/integrations">Integrations</a></li>
-      <li class="link_secondary"><a href="/careers">Careers</a></li>
-    </ul>
+      <h3 class="a11y">Sitemap</h3>
+      <ul class="links_site">
+        <li class="link_primary"><a href="/">Home</a></li>
+        <li class="link_primary"><a href="/discovery">Discovery</a></li>
+        <li class="link_primary"><a href="/photos">Photos</a></li>
+        <li class="link_primary"><a href="/contact">Contact</a></li>
+        <li class="link_secondary"><a href="/about">About</a></li>
+        <li class="link_secondary"><a href="/help">Help</a></li>
+        <li class="link_secondary"><a href="/terms">Terms</a></li>
+        <li class="link_secondary"><a href="/guidelines">Guidelines</a></li>
+        <li class="link_secondary"><a href="/testimonials">Testimonials</a></li>
+        <li class="link_secondary"><a href="/advertise">Advertise</a></li>
+        <li class="link_secondary"><a href="/integrations">Integrations</a></li>
+        <li class="link_secondary"><a href="/careers">Careers</a></li>
+      </ul>
 
-    <h3 class="a11y">Find us on the web</h3>
-    <ul class="links_social">
-      <li><a href="https://instagram.com/logo" class="icon icon_instagram">Instagram: Logo</a></li>
-      <li><a href="https://twitter.com/logo" class="icon icon_twitter">Twitter: @Logo</a></li>
-      <li><a href="https://facebook.com/logo" class="icon icon_facebook">Facebook: Logo</a></li>
-      <li><a href="https://logo.com/" class="icon icon_web">Web: Logo.com</a></li>
-    </ul>
+      <h3 class="a11y">Find us on the web</h3>
+      <ul class="links_social">
+        <li><a href="https://instagram.com/logo" class="icon icon_instagram">Instagram: Logo</a></li>
+        <li><a href="https://twitter.com/logo" class="icon icon_twitter">Twitter: @Logo</a></li>
+        <li><a href="https://facebook.com/logo" class="icon icon_facebook">Facebook: Logo</a></li>
+        <li><a href="https://logo.com/" class="icon icon_web">Web: Logo.com</a></li>
+      </ul>
 
-    <h3 class="a11y">Subscribe to our newsletter</h3>
-    <form class="form_subscribe" action="/subscribe" mehtod="POST">
-      <div class="form_row">
-        <label for="subscribe_email">Email</label>
-        <div class="form_field">
-          <input type="email" name="email" id="subscribe_email" required>
+      <h3 class="a11y">Subscribe to our newsletter</h3>
+      <form class="form_subscribe" action="/subscribe" mehtod="POST">
+        <div class="form_row">
+          <label for="subscribe_email">Email</label>
+          <div class="form_field">
+            <input type="email" name="email" id="subscribe_email" required>
+          </div>
         </div>
-      </div>
-      <div class="form_row form_actions">
-        <button type="submit">Subscribe</button>
-      </div>
-      <p>Stay in touch with us for the freshest products!</p>
-    </form>
-
+        <div class="form_row form_actions">
+          <button type="submit">Subscribe</button>
+        </div>
+        <p>Stay in touch with us for the freshest products!</p>
+      </form>
+    </div>
   </footer>
 </body>
 

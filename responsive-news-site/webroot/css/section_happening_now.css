@@ -21,6 +21,7 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     column-gap: 40px;
+    max-width: 37.5rem;
   }
   #section_happening_now header {
     grid-column: 1/ 3;
