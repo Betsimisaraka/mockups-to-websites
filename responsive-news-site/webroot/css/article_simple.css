@@ -39,11 +39,10 @@
 }
 
 @media (min-width: 768px) {
-  /*
   #section_happening_now .article_card + .article_card + .article_simple +  .article_simple ~ .article_simple {
-    display: none;
+    visibility: hidden;
   }
-  */
+
   .article_simple .article_image {
     height: calc((100vw - 3rem)/ 4);
   }
@@ -55,5 +54,8 @@
 @media (min-width: 1350px) {
   .article_simple .article_image {
     height: 210px;
+  }
+  #section_happening_now .article_card + .article_card + .article_simple +  .article_simple ~ .article_simple {
+    visibility: visible;
   }
 }
