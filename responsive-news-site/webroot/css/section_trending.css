@@ -28,7 +28,7 @@
       grid-column: 1 / 3;
     }
     #section_trending article:nth-of-type(3) {
-      visibility: hidden;
+      display: none;
     }
 }
 
@@ -50,6 +50,6 @@
     margin-block-start: 1rem;
   }
   #section_trending article:nth-of-type(3) {
-    visibility: visible;
+    display: block;
   }
 }

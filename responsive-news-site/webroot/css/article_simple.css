@@ -40,7 +40,7 @@
 
 @media (min-width: 768px) {
   #section_happening_now .article_card + .article_card + .article_simple +  .article_simple ~ .article_simple {
-    visibility: hidden;
+    display: none;
   }
 
   .article_simple .article_image {
@@ -56,6 +56,6 @@
     height: 210px;
   }
   #section_happening_now .article_card + .article_card + .article_simple +  .article_simple ~ .article_simple {
-    visibility: visible;
+    display: block;
   }
 }
