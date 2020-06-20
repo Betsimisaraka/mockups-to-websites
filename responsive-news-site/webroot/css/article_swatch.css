@@ -71,7 +71,7 @@
   }
   @media (min-width: 1350px) {
     .article_swatch .article_image {
-      height: calc(50vw - 30rem);
+      height: 200px;
     }
   }
 }
